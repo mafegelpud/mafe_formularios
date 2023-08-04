@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-basico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/imagenes-dibujos-animados-conjunto-diferentes-flechas-dibujadas-mano-detalles-amor-iconos-lindos-estilo-mixto-vector_40453-2497.avif" class="icon_pes">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<script>
+    //funcion para mensaje emergente
+    function enviar(){
+        alert
+    }
+
+</script>
+
+<body>
+    <!--encabezado-->
+    <header>
+        <h1>formulario basico</h1>
+    </header>
+
+    <div class="contenido">
+    
+
+      <div class="formulario">
+        <div class="titulo-form">
+            <h1>imput basicos</h1>
+        </div>
+            <div class="entrada">
+                <label>entrada tipo  </label>
+                <input type="text" placeholder="nombre completo">
+            </div>
+            <div class="entrada">
+                <label> tipo email </label>
+                <input type="email" placeholder="ejemplo@email.com">
+            </div>
+
+            <div class="entrada">
+                <label>entrada tipo fecha </label>
+                <input type="date">
+            </div>
+            <div class="entrada">
+                <label> tipo texto </label>
+                <select>
+                    <option value="">ninguna</option>
+                    <option value="">opcion 1</option>
+                    <option value="">opcion 2</option>
+                    <option value="">opcion 3</option>
+                </select>
+
+            </div>
+            <div class="entrada">
+                <label>contraseña </label>
+                <input type="password">
+            </div>
+
+
+            <div class="entrada">
+                <label>entrada tipo caja de verificacion circular</label>
+                <div class="opciones">
+                    <div>
+                        <label>
+                            <input type="radio" name="radio" >
+                            <span>opcion 1</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio" >
+                            <span>opcion 2</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio" >
+                            <span>opcion 3</span>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="entrada">
+                <label">entrada tipo area grande de texto 300+ caracteres</label>
+                <textarea name="textarea"></textarea>
+            </div>
+
+            <div  class="entrada">
+                <label> entrada tipo caja de verificacion</label>
+                <input type="checkbox"><label>acepto terminos</label>
+            </div>
+
+            <div class="boton">
+                <input type="button" value="enviar" onclick="enviar()">
+
+            </div>
+
+
+
+
+
+        </div>
+
+     </div>
+
+
+
+    <!--menu de navegacion-->
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="basico.html" class="active">basico</a></li>
+            <li><a href="registro.html">registro</a></li>
+            <li><a href="acceso.html">iniciar sesion</a></li>
+            <li><a href="validacion.html">validacion</a></li>
+            <li><a href="busqueda.html">busqueda</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+.icon_pes{
+    border-radius: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+}
+
+header{
+    box-sizing: border-box;
+    background-color: rgb(43, 43, 176);
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-family: 'Heebo', sans-serif;
+    overflow: hidden;
+}
+
+header h1 {
+    float: center;
+
+}
+
+.contenido{
+    margin: 100px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    height: 500px;
+}
+
+img{
+    width: 450px;
+    padding-left: 30px;
+}
+
+.menu{
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid #eaeaea;
+    background-color: rgb(208, 208, 208);
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.menu ul a {
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+    text-align: left;
+    background-color: rgb(42, 42, 172);
+    padding: 10px 16px;
+    border-radius: 3px;
+    opacity: 0.8;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+ul li a:active {
+    background-color: rgb(99, 119, 230);
+    pointer-events: none;
+}
+
+ul li a:hover {
+    opacity: 1;
+}
+
+ul li{
+    display: inline-block;
+}
+
+@media (max-with: 1000px) {
+    header h1 {
+        float: none;
+    }
+    header a {
+        margin-top: 25px;
+        float:none; 
+    }
+}
+
+
+/*-formulario -*/
+
+.form-basico {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 55px;
+    box-sizing: border-box;
+    background-color: beige;
+    box-shadow: 0 1px 3px 0 rgb(red, green, blue)
+    
+}
+
+.entrada {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.titulo{
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(255, 153, 0);
+    font-size: 24px;
+    padding: ;
+}
